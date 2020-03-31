@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginFrame" customModule="Mediator_UIKit" customModuleProvider="target">
+            <connections>
+                <outlet property="buttonCancel" destination="nlV-eV-rlB" id="eUN-Rl-0ea"/>
+                <outlet property="buttonOk" destination="a4Z-a9-AVx" id="4Q9-EA-srs"/>
+                <outlet property="checkGuest" destination="Raf-BH-BkR" id="wTd-X4-eSQ"/>
+                <outlet property="checkLogin" destination="KIF-tW-1Cx" id="DfW-qj-uKt"/>
+                <outlet property="textPass" destination="bhd-dF-mfD" id="tPc-Wo-VgL"/>
+                <outlet property="textUser" destination="4Di-Ec-KIU" id="jRg-89-aA3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="537" height="226"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="d5G-7Q-EmJ">
+                    <rect key="frame" x="0.0" y="34" width="537" height="192"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="cx1-Hg-esk" userLabel="CheckBox Stack View">
+                            <rect key="frame" x="0.0" y="0.0" width="537" height="48"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Raf-BH-BkR" userLabel="Guest Check Box" customClass="ColleagueCheckBox" customModule="Mediator_UIKit" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="268.5" height="48"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KIF-tW-1Cx" userLabel="Login Check Box" customClass="ColleagueCheckBox" customModule="Mediator_UIKit" customModuleProvider="target">
+                                    <rect key="frame" x="268.5" y="0.0" width="268.5" height="48"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="svG-bH-tba"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ejr-ee-KRh" userLabel="TextField Stack View">
+                            <rect key="frame" x="0.0" y="48" width="537" height="96"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IjX-r9-VGD" userLabel="Username Stack View">
+                                    <rect key="frame" x="0.0" y="0.0" width="537" height="48"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9eR-FX-hS7" userLabel="Username Label">
+                                            <rect key="frame" x="0.0" y="0.0" width="100" height="48"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="100" id="Z7Z-ry-kxc"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Di-Ec-KIU" userLabel="Username TextField" customClass="ColleagueTextField" customModule="Mediator_UIKit" customModuleProvider="target">
+                                            <rect key="frame" x="100" y="0.0" width="437" height="48"/>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        </view>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dwJ-8D-5VS" userLabel="Password Stack View">
+                                    <rect key="frame" x="0.0" y="48" width="537" height="48"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TDU-kQ-PQM" userLabel="Password Label">
+                                            <rect key="frame" x="0.0" y="0.0" width="100" height="48"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="100" id="HmC-Sy-ybN"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bhd-dF-mfD" userLabel="Password TextField" customClass="ColleagueTextField" customModule="Mediator_UIKit" customModuleProvider="target">
+                                            <rect key="frame" x="100" y="0.0" width="437" height="48"/>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        </view>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="96" id="SBz-oK-Tuk"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="3kV-9G-ukV" userLabel="Buton Stack View">
+                            <rect key="frame" x="0.0" y="144" width="537" height="48"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a4Z-a9-AVx" userLabel="OK Button" customClass="ColleagueButton" customModule="Mediator_UIKit" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="268.5" height="48"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nlV-eV-rlB" userLabel="Cancel Button" customClass="ColleagueButton" customModule="Mediator_UIKit" customModuleProvider="target">
+                                    <rect key="frame" x="268.5" y="0.0" width="268.5" height="48"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="83o-Fx-FIz"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="d5G-7Q-EmJ" secondAttribute="bottom" id="Bc4-cE-b68"/>
+                <constraint firstItem="d5G-7Q-EmJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="KhS-YB-pC6"/>
+                <constraint firstAttribute="trailing" secondItem="d5G-7Q-EmJ" secondAttribute="trailing" id="eps-vW-18X"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="129.71014492753625" y="67.633928571428569"/>
+        </view>
+    </objects>
+</document>

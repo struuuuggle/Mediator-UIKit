@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ColleagueCheckBox" customModule="Mediator_UIKit" customModuleProvider="target">
+            <connections>
+                <outlet property="checkBox" destination="ppQ-tI-lOz" id="xpR-5m-Uhg"/>
+                <outlet property="label" destination="gLg-Ao-tvK" id="nnV-20-VuL"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="537" height="171"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ppQ-tI-lOz">
+                    <rect key="frame" x="0.0" y="0.0" width="495" height="171"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="42" placeholderIntrinsicHeight="171" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gLg-Ao-tvK">
+                    <rect key="frame" x="495" y="0.0" width="42" height="171"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="ppQ-tI-lOz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="4vJ-SI-pop"/>
+                <constraint firstAttribute="trailing" secondItem="gLg-Ao-tvK" secondAttribute="trailing" id="DDE-a7-ceb"/>
+                <constraint firstItem="gLg-Ao-tvK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ERg-mr-ZcE"/>
+                <constraint firstItem="gLg-Ao-tvK" firstAttribute="leading" secondItem="ppQ-tI-lOz" secondAttribute="trailing" id="SLV-XU-zda"/>
+                <constraint firstItem="ppQ-tI-lOz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="jKc-kv-9hZ"/>
+                <constraint firstAttribute="bottom" secondItem="ppQ-tI-lOz" secondAttribute="bottom" id="moy-cx-kjq"/>
+                <constraint firstAttribute="bottom" secondItem="gLg-Ao-tvK" secondAttribute="bottom" id="rkj-aS-TxQ"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="268.84057971014494" y="72.65625"/>
+        </view>
+    </objects>
+</document>

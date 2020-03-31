@@ -13,6 +13,16 @@
 		15CBF4172430A3D500B1E6DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15CBF4152430A3D500B1E6DC /* Main.storyboard */; };
 		15CBF4192430A3D600B1E6DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15CBF4182430A3D600B1E6DC /* Assets.xcassets */; };
 		15CBF41C2430A3D600B1E6DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15CBF41A2430A3D600B1E6DC /* LaunchScreen.storyboard */; };
+		15CBF4252430CE9C00B1E6DC /* BaseColleague.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CBF4232430CE9C00B1E6DC /* BaseColleague.swift */; };
+		15CBF4262430CE9C00B1E6DC /* BaseMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CBF4242430CE9C00B1E6DC /* BaseMediator.swift */; };
+		15CBF42A2430D04A00B1E6DC /* ColleagueButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15CBF4292430D04A00B1E6DC /* ColleagueButton.xib */; };
+		15CBF42C2430D08500B1E6DC /* ColleagueButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CBF42B2430D08500B1E6DC /* ColleagueButton.swift */; };
+		15CBF42E2430D51C00B1E6DC /* ColleagueTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15CBF42D2430D51C00B1E6DC /* ColleagueTextField.xib */; };
+		15CBF4322430D69C00B1E6DC /* ColleagueTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CBF4312430D69C00B1E6DC /* ColleagueTextField.swift */; };
+		15CBF4342430D8E600B1E6DC /* ColleagueCheckBox.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15CBF4332430D8E600B1E6DC /* ColleagueCheckBox.xib */; };
+		15CBF4362430D9E100B1E6DC /* ColleagueCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CBF4352430D9E100B1E6DC /* ColleagueCheckBox.swift */; };
+		15CBF4382430E08600B1E6DC /* LoginFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CBF4372430E08600B1E6DC /* LoginFrame.swift */; };
+		15CBF43A2430E0C000B1E6DC /* LoginFrame.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15CBF4392430E0C000B1E6DC /* LoginFrame.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		15CBF4182430A3D600B1E6DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15CBF41B2430A3D600B1E6DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15CBF41D2430A3D600B1E6DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15CBF4232430CE9C00B1E6DC /* BaseColleague.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseColleague.swift; sourceTree = "<group>"; };
+		15CBF4242430CE9C00B1E6DC /* BaseMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseMediator.swift; sourceTree = "<group>"; };
+		15CBF4292430D04A00B1E6DC /* ColleagueButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColleagueButton.xib; sourceTree = "<group>"; };
+		15CBF42B2430D08500B1E6DC /* ColleagueButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColleagueButton.swift; sourceTree = "<group>"; };
+		15CBF42D2430D51C00B1E6DC /* ColleagueTextField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColleagueTextField.xib; sourceTree = "<group>"; };
+		15CBF4312430D69C00B1E6DC /* ColleagueTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColleagueTextField.swift; sourceTree = "<group>"; };
+		15CBF4332430D8E600B1E6DC /* ColleagueCheckBox.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColleagueCheckBox.xib; sourceTree = "<group>"; };
+		15CBF4352430D9E100B1E6DC /* ColleagueCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColleagueCheckBox.swift; sourceTree = "<group>"; };
+		15CBF4372430E08600B1E6DC /* LoginFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFrame.swift; sourceTree = "<group>"; };
+		15CBF4392430E0C000B1E6DC /* LoginFrame.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginFrame.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,41 @@
 		15CBF40E2430A3D500B1E6DC /* Mediator-UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				15CBF40F2430A3D500B1E6DC /* AppDelegate.swift */,
-				15CBF4112430A3D500B1E6DC /* SceneDelegate.swift */,
-				15CBF4132430A3D500B1E6DC /* ViewController.swift */,
-				15CBF4152430A3D500B1E6DC /* Main.storyboard */,
+				15CBF42F2430D57C00B1E6DC /* Application */,
+				15CBF4302430D58600B1E6DC /* View */,
 				15CBF4182430A3D600B1E6DC /* Assets.xcassets */,
 				15CBF41A2430A3D600B1E6DC /* LaunchScreen.storyboard */,
 				15CBF41D2430A3D600B1E6DC /* Info.plist */,
 			);
 			path = "Mediator-UIKit";
+			sourceTree = "<group>";
+		};
+		15CBF42F2430D57C00B1E6DC /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				15CBF40F2430A3D500B1E6DC /* AppDelegate.swift */,
+				15CBF4112430A3D500B1E6DC /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		15CBF4302430D58600B1E6DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15CBF4232430CE9C00B1E6DC /* BaseColleague.swift */,
+				15CBF4242430CE9C00B1E6DC /* BaseMediator.swift */,
+				15CBF42B2430D08500B1E6DC /* ColleagueButton.swift */,
+				15CBF4292430D04A00B1E6DC /* ColleagueButton.xib */,
+				15CBF4352430D9E100B1E6DC /* ColleagueCheckBox.swift */,
+				15CBF4332430D8E600B1E6DC /* ColleagueCheckBox.xib */,
+				15CBF4312430D69C00B1E6DC /* ColleagueTextField.swift */,
+				15CBF42D2430D51C00B1E6DC /* ColleagueTextField.xib */,
+				15CBF4372430E08600B1E6DC /* LoginFrame.swift */,
+				15CBF4392430E0C000B1E6DC /* LoginFrame.xib */,
+				15CBF4152430A3D500B1E6DC /* Main.storyboard */,
+				15CBF4132430A3D500B1E6DC /* ViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +171,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15CBF4342430D8E600B1E6DC /* ColleagueCheckBox.xib in Resources */,
 				15CBF41C2430A3D600B1E6DC /* LaunchScreen.storyboard in Resources */,
+				15CBF42A2430D04A00B1E6DC /* ColleagueButton.xib in Resources */,
 				15CBF4192430A3D600B1E6DC /* Assets.xcassets in Resources */,
+				15CBF42E2430D51C00B1E6DC /* ColleagueTextField.xib in Resources */,
 				15CBF4172430A3D500B1E6DC /* Main.storyboard in Resources */,
+				15CBF43A2430E0C000B1E6DC /* LoginFrame.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +189,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				15CBF4142430A3D500B1E6DC /* ViewController.swift in Sources */,
+				15CBF4322430D69C00B1E6DC /* ColleagueTextField.swift in Sources */,
+				15CBF4362430D9E100B1E6DC /* ColleagueCheckBox.swift in Sources */,
+				15CBF42C2430D08500B1E6DC /* ColleagueButton.swift in Sources */,
 				15CBF4102430A3D500B1E6DC /* AppDelegate.swift in Sources */,
+				15CBF4262430CE9C00B1E6DC /* BaseMediator.swift in Sources */,
+				15CBF4252430CE9C00B1E6DC /* BaseColleague.swift in Sources */,
+				15CBF4382430E08600B1E6DC /* LoginFrame.swift in Sources */,
 				15CBF4122430A3D500B1E6DC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
